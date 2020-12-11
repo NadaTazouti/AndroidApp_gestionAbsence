@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Ledger+</string>
+    <string name="nouveaute">Nouveauté</string>
+    <string name="dessin0">Statistiques et Dessins</string>
+    <string name="dessin1">
+       LEDGER+ s\'occupera de la collection des données, leur traitement, analyse , interprétation et présentation afin de rendre les données compréhensibles et claires .
+    </string>
+    <string name="books">
+        Marquer sa présence ne va plus se faire de la même façon, ce n\'est plus la peine de faire passer cette fameuse feuille d\'absence
+d\'un étudiant à un autre. \n Comment ça?? \n
+Grâce a l\'application LEDGER+ vous pouvez marquer l\'absence
+directement  depuis son  smartphone.</string>
+    <string name="title_activity_teacher">teacher</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

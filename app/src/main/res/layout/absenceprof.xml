@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgff"
+            android:layout_width="92dp"
+            android:layout_height="68dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:src="@mipmap/ic_launcher"
+
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:text="Nom"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="138dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:text="Code"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="28dp"
+            android:layout_weight="1"
+            android:text="Code:"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="84dp"
+            android:layout_height="29dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/textView73"
+            android:layout_weight="1"
+            android:text="Prenom"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="94dp"
+            android:layout_marginTop="51dp"
+            android:layout_weight="1"
+            android:text="a été "
+            android:textColor="@color/design_default_color_primary_dark" />
+
+        <TextView
+            android:id="@+id/textView95"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="51dp"
+            android:layout_weight="1"
+            android:text="Abs_pre"
+            android:textColor="@color/design_default_color_primary_dark" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="72dp"
+            app:srcCompat="@color/serzerzer" />
+    </RelativeLayout>
+</LinearLayout>

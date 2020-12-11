@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Etudiant">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="143dp"
+        android:layout_height="296dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="224dp"
+        android:background="@color/poiyy" />
+
+    <TextView
+        android:id="@+id/xxx"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="520dp"
+        android:alpha="1"
+        android:background="@color/design_default_color_primary"
+        android:gravity="bottom|left"
+        android:text="Ledger+,
+Tout droit résérvé 2019-2020.
+"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="54dp"
+        android:scaleX="2.5"
+        app:srcCompat="@drawable/piuy" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="448dp"
+        android:background="@color/poiyy"
+        android:gravity="center"
+        android:text="valider votre choix"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/xxxx"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="235dp"
+        android:background="@color/poiyy"
+        app:srcCompat="@drawable/ic_visualiser" />
+
+    <ImageView
+        android:id="@+id/x99"
+        android:layout_width="349dp"
+        android:layout_height="136dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="31dp"
+        android:alpha="1"
+        android:scaleX="3"
+        app:srcCompat="@drawable/font" />
+
+
+    <RadioGroup
+        android:id="@+id/bt"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:background="@color/serzerzer">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="par date"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:text="par module"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="289dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="231dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <ImageView
+                android:id="@+id/newMail3"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="84dp"
+                android:alpha="0.25"
+                android:scaleY="1.25"
+                app:srcCompat="@drawable/r3" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="214dp"
+                app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="218dp"
+                android:text="Le dernier changement était le:"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="54dp"
+                android:text="Votre sécurité c'est notre priorité! "
+                android:textSize="8sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="339dp"
+                android:gravity="center"
+                android:text="Faites tout  ce que vous voulez en toute liberté."
+                android:textSize="8sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="28dp"
+                app:srcCompat="@drawable/ic_update_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="290dp"
+                app:srcCompat="@drawable/ic_update_black_24dp" />
+
+            <Switch
+                android:id="@+id/switch3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginTop="313dp"
+                android:text="Fille " />
+
+            <TextView
+                android:id="@+id/date36"
+                android:layout_width="205dp"
+                android:layout_height="38dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="236dp"
+                android:text="TextView"
+                android:textColor="@android:color/black"
+                android:textSize="8sp" />
+
+            <ImageView
+                android:id="@+id/newMail2"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="143dp"
+                android:alpha="0.25"
+                android:scaleY="1.25"
+                app:srcCompat="@drawable/r3" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="101dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="0dp"
+                android:gravity="center|top"
+                android:text="Edition"
+                android:textColor="@android:color/tertiary_text_light"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/NewPassword"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="145dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="21dp"
+                android:layout_height="19dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="69dp"
+                app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="21dp"
+                android:layout_height="21dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="126dp"
+                app:srcCompat="@android:drawable/ic_menu_manage" />
+
+            <EditText
+                android:id="@+id/ancienMOT"
+                android:layout_width="213dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="84dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="100"
+                android:text="Ancien mot de passe"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="129dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Nouveau mot de passe"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="204dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="31dp"
+                android:text="Changer mot de passe:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="46dp"
+                android:layout_marginTop="292dp"
+                android:text="Changer photo de couverture:"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="21dp"
+                android:layout_height="22dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="0dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <Button
+                android:id="@+id/ChangerPass"
+                android:layout_width="223dp"
+                android:layout_height="34dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="177dp"
+                android:text="Changer"
+                android:textColor="@android:color/black"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="319dp"
+                android:text="Fille ou Garçon?" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/xxxxxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barrecherche" />
+
+    <TextView
+        android:id="@+id/NomEtud"
+        android:layout_width="93dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="188dp"
+        android:layout_toEndOf="@+id/visageEtud"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/PrenomEtud"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginTop="189dp"
+        android:layout_toEndOf="@+id/NomEtud"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/SavaoirPlusEtud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="236dp"
+        android:background="@color/poiyy"
+        app:srcCompat="@drawable/ic_ajouter_enregistrement" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="51dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="253dp"
+        android:gravity="center"
+        android:text="Avoir plus d'infos"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/x3"
+        android:layout_width="72dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="257dp"
+        android:gravity="center"
+        android:text="Visualiser l'absence"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/visageEtud"
+        android:layout_width="128dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="67dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@android:color/background_light"
+        app:civ_border_width="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="4dp"
+        android:layout_height="302dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="229dp"
+        android:alpha="0.25"
+        app:srcCompat="@color/design_default_color_primary" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="4dp"
+        android:layout_height="302dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="318dp"
+        android:alpha="0.25"
+        app:srcCompat="@color/design_default_color_primary" />
+
+</RelativeLayout>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Absence">
+
+    <TextView
+        android:id="@+id/xxx2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="520dp"
+        android:alpha="1"
+        android:background="@color/design_default_color_primary"
+        android:gravity="bottom|left"
+        android:text="Ledger+,
+Tout droit résérvé 2019-2020.
+"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/xxxx2"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <ImageView
+        android:id="@+id/xxxx3"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="163dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <ImageView
+        android:id="@+id/xxxx13"
+        android:layout_width="114dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="170dp"
+        android:alpha="0.5"
+        app:srcCompat="@color/serzerzer" />
+
+    <ImageView
+        android:id="@+id/xxxx4"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        android:background="@color/poiyy" />
+
+    <ImageView
+        android:id="@+id/xxxxxxxxx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/barrecherche" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="256dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ter789"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="85dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Date"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="113dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="179dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Section/groupe"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/dat2"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="71dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="70dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/r3" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginTop="217dp"
+        android:gravity="left"
+        android:text="Chercher"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/aaaaa3"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="104dp"
+        android:text="Veuillez entrer une date valide ."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/aaaaa5"
+        android:layout_width="99dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="198dp"
+        android:text="Veuillez choisir une section ou groupe."
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/aaaaa4"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="118dp"
+        android:text="la forme correcte à respecter yyyy-MM-dd"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="14dp"
+        android:alpha="0.5"
+        android:text="Visualiser l'absence"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/visageEtud57"
+        android:layout_width="113dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="21dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@android:color/background_light"
+        app:civ_border_width="2dp" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="174dp" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:alpha="0.5"
+        app:srcCompat="@drawable/ic_visualiser" />
+
+    <TextView
+        android:id="@+id/ert3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/backGr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="0dp"
+    android:background="@color/darkColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/b_section"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/qs5"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/b_groupe"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/qs5"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/b_prenom"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="6dp"
+        android:layout_toEndOf="@+id/b_nom"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/qs8"
+        android:layout_width="175dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="126dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Retirer                      du "
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/b_code"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="31dp"
+        android:layout_toEndOf="@+id/qs"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/nbre"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="74dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Code"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Section"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs6"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="75dp"
+        android:layout_weight="1"
+        android:text="nombre de seances ratées jusquà maintenant"
+        android:textColor="@android:color/background_light"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/qs11"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="61dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Groupe"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/b_nom"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/b_nom2"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="126dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/b_list"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="126dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="215dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="82dp"
+        android:onClick="onSendWArning"
+        android:text="envoyer avertissement "
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="115dp"
+        android:layout_weight="1"
+        android:background="@android:drawable/ic_delete"
+        android:onClick="onDeletefrom" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="92dp"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="188dp"
+        android:layout_height="29dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="148dp"
+        app:srcCompat="@color/serzerzer" />
+
+
+</RelativeLayout>
+
+
+

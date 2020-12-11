@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listeNoire">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="340dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ter99"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:orientation="vertical"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/xxx6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="520dp"
+        android:alpha="1"
+        android:background="@color/design_default_color_primary"
+        android:gravity="bottom|left"
+        android:text="Ledger+,
+Tout droit résérvé 2019-2020.
+"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/xxxx8"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="283dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        app:srcCompat="@android:color/holo_blue_bright" />
+
+    <ImageView
+        android:id="@+id/xxxx9"
+        android:layout_width="match_parent"
+        android:layout_height="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        app:srcCompat="@color/nada" />
+
+    <ImageView
+        android:id="@+id/xxxx12"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="0dp"
+        android:alpha="0.5"
+        android:background="@color/poiyy" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/xxxc"
+        android:layout_width="113dp"
+        android:layout_height="175dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="18dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_color="@android:color/background_light"
+        app:civ_border_width="2dp" />
+
+    <ImageView
+        android:id="@+id/xxxxxxxxx6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/barrecherche" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="99dp"
+        android:text="étudiant(s) dans BlackList"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="127dp"
+        android:text="étudiant(s) dans YellowList "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="100dp"
+        android:text="Nbre"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="127dp"
+        android:text="Nbre"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="21dp"
+        android:alpha="0.25"
+        android:text="Yellow "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="21dp"
+        android:alpha="0.25"
+        android:text="Black "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="24dp"
+        android:alpha="0.25"
+        android:text="lists"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="14dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="24dp"
+        android:alpha="0.5"
+        android:text=","
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        app:srcCompat="@android:drawable/stat_sys_warning" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="13dp"
+        android:layout_height="14dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="228dp"
+        android:alpha="0.5"
+        android:background="@android:color/holo_red_light"
+        app:srcCompat="@android:drawable/stat_sys_warning" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="13dp"
+        android:layout_height="14dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="165dp"
+        android:alpha="0.5"
+        android:background="@android:color/holo_red_light"
+        app:srcCompat="@android:drawable/presence_busy" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="164dp"
+        android:alpha="0.5"
+        android:text="                   ou liste noire, est la liste des étudiants et étudiantes, dont le nbre de séances ratées                   en                  dépasse les 10 séances" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="226dp"
+        android:alpha="0.5"
+        android:text="                      ou liste jaune, est la liste des étudiants et étudiantes, dont le nbre de séances ratées                   en                  dépasse les 5 séances" />
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="163dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="BlackList" />
+
+    <TextView
+        android:id="@+id/textView81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="225dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="YellowList" />
+
+    <TextView
+        android:id="@+id/module1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="198dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="module" />
+
+    <TextView
+        android:id="@+id/module2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="module" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="289dp"
+        android:text="Blacklist" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="292dp"
+        android:text="YellowList "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="317dp"
+        android:text="activer le switch vous affiche le &quot;Yellowlist&quot;.sinon c'est le BlackList qui s'affichera"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+</RelativeLayout>

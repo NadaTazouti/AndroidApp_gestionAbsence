@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/serzerzer">
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="0dp"
+            android:text="Vous étiez "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="0dp"
+            android:text="le"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/a_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="0dp"
+            android:text="TextView"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/datee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="TextView"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="34dp"
+            app:srcCompat="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="13dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/ic_menu_send" />
+    </RelativeLayout>
+</LinearLayout>

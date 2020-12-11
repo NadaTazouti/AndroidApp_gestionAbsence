@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue"
+    tools:context=".AjEnseignant">
+
+    <EditText
+        android:id="@+id/editText31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="121dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Nom Enseignant"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/holo_blue_bright"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/editText41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="118dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Mot de passe"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button91"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="128dp"
+        android:text="soumettre"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="142dp"
+        android:layout_height="307dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="110dp"
+        app:srcCompat="@drawable/man" />
+
+    <EditText
+        android:id="@+id/editText51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="119dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="textPersonName"
+        android:text="Prenom Enseignant"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+</RelativeLayout>

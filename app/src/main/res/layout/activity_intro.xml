@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue"
+    tools:context=".Intro">
+
+    <TextView
+        android:id="@+id/titre1"
+        android:layout_width="213dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="228dp"
+        android:backgroundTint="@android:color/background_light"
+        android:gravity="center"
+        android:text="sfsfsdf"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/titre2"
+        android:layout_width="269dp"
+        android:layout_height="266dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="271dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="descrip"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button2suiv"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="31dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Suivant"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="109dp"
+        app:srcCompat="@drawable/books" />
+</RelativeLayout>

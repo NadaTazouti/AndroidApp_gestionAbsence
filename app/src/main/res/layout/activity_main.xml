@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="201dp"
+        android:layout_height="228dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="91dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="59dp"
+        android:text="Une excellente gestion de l'absence "
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="250dp"
+        android:text="Lancer LEDGER+"
+        android:textColor="@android:color/background_light"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="203dp"
+        android:layout_marginEnd="34dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="?"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="202dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="35dp"
+        android:text="Lancer"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Bouton_admin"
+        android:layout_width="108dp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="252dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:text="Admin"
+        android:textColor="@color/colorAccent"
+        android:textSize="10sp" />
+</RelativeLayout>

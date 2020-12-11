@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+>
+<group  android:checkableBehavior="single">
+  <item
+      android:title="Ajout-Enregistrement"
+      android:id="@+id/ajouter_enregistrement"
+      android:icon="@drawable/ic_ajouter_enregistrement"
+      >
+  </item>
+    <item
+    android:title="Chercher-Enregistrement  "
+    android:id="@+id/Chercher_enregistrement"
+    android:icon="@drawable/ic_search_enregistrement"
+    >
+</item>
+    <item
+        android:title="Mettre_à_jour-Enregistrement    "
+        android:id="@+id/Mise_à_jour_enregistrement"
+        android:icon="@drawable/ic_update_black_24dp"
+        >
+    </item>
+</group>
+</menu>

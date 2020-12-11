@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="0dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/qs1"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs2"
+        android:layout_width="106dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/qs3"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="31dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="31dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Code"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs5"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="Groupe"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/qs4"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:text="TextView"
+        android:textSize="14sp" />
+
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="98dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="7dp"
+        android:gravity="left"
+        android:text="Présent(e)"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="98dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="38dp"
+        android:gravity="left"
+        android:text="Absent(e)"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="19dp"
+        android:layout_weight="1"
+        android:background="@android:drawable/ic_delete"
+        android:onClick="onDelete" />
+
+
+</RelativeLayout>
+
+
+
+
